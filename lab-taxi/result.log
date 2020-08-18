@@ -1,0 +1,226 @@
+
+Best result: 
+	{'target': 9.08, 'params': {'alpha': 0.17618812810303153, 'eps': 0.7428330072309788, 'eps_decay': 0.7046262442909615}}
+
+Iteration 0: 
+	{'target': 8.91, 'params': {'alpha': 0.15, 'eps': 0.85, 'eps_decay': 0.6}}
+Iteration 1: 
+	{'target': 8.71, 'params': {'alpha': 0.11134884718936496, 'eps': 0.9872415472182283, 'eps_decay': 0.7914938534004425}}
+Iteration 2: 
+	{'target': 8.76, 'params': {'alpha': 0.13514678058927015, 'eps': 0.8538025691295406, 'eps_decay': 0.8198418406640215}}
+Iteration 3: 
+	{'target': 8.73, 'params': {'alpha': 0.16455618545082926, 'eps': 0.7072998035940832, 'eps_decay': 0.7824124045092037}}
+Iteration 4: 
+	{'target': 8.77, 'params': {'alpha': 0.1246649381774642, 'eps': 0.6279962156489811, 'eps_decay': 0.5096045416581444}}
+Iteration 5: 
+	{'target': 8.82, 'params': {'alpha': 0.10987259548488106, 'eps': 0.6502182176806441, 'eps_decay': 0.7563422711241703}}
+Iteration 6: 
+	{'target': 8.78, 'params': {'alpha': 0.1322207948069479, 'eps': 0.5927470690379453, 'eps_decay': 0.8668774196150059}}
+Iteration 7: 
+	{'target': 8.83, 'params': {'alpha': 0.12709208033747701, 'eps': 0.6367739457987344, 'eps_decay': 0.8817650729594171}}
+Iteration 8: 
+	{'target': 8.97, 'params': {'alpha': 0.11271145710590635, 'eps': 0.8736324249396856, 'eps_decay': 0.5020951822795611}}
+Iteration 9: 
+	{'target': 8.87, 'params': {'alpha': 0.18567906078643653, 'eps': 0.8479781006608489, 'eps_decay': 0.7212102816938195}}
+Iteration 10: 
+	{'target': 8.78, 'params': {'alpha': 0.19352357974497159, 'eps': 0.7563117648717737, 'eps_decay': 0.5710448262383161}}
+Iteration 11: 
+	{'target': 8.72, 'params': {'alpha': 0.11300673228483733, 'eps': 0.9094643005036607, 'eps_decay': 0.5479310850378132}}
+Iteration 12: 
+	{'target': 8.9, 'params': {'alpha': 0.17622112153184344, 'eps': 0.9441470073201452, 'eps_decay': 0.8541899355263278}}
+Iteration 13: 
+	{'target': 8.77, 'params': {'alpha': 0.13205785512147117, 'eps': 0.9270553753584843, 'eps_decay': 0.6773706822274714}}
+Iteration 14: 
+	{'target': 8.83, 'params': {'alpha': 0.1980678120519977, 'eps': 0.7684141215357165, 'eps_decay': 0.8301586814186324}}
+Iteration 15: 
+	{'target': 8.95, 'params': {'alpha': 0.1941278139291923, 'eps': 0.8044326694437043, 'eps_decay': 0.8968939686719021}}
+Iteration 16: 
+	{'target': 8.83, 'params': {'alpha': 0.192269744636718, 'eps': 0.9300498330161986, 'eps_decay': 0.5208719196258697}}
+Iteration 17: 
+	{'target': 8.71, 'params': {'alpha': 0.1895949512703214, 'eps': 0.5451984608123892, 'eps_decay': 0.84191426842449}}
+Iteration 18: 
+	{'target': 8.77, 'params': {'alpha': 0.1847426291902075, 'eps': 0.9719836020569381, 'eps_decay': 0.555992972693941}}
+Iteration 19: 
+	{'target': 8.73, 'params': {'alpha': 0.1133382109348198, 'eps': 0.9042981065456552, 'eps_decay': 0.7213297051225998}}
+Iteration 20: 
+	{'target': 8.8, 'params': {'alpha': 0.12749192446753294, 'eps': 0.7015112042019973, 'eps_decay': 0.5429983802574775}}
+Iteration 21: 
+	{'target': 8.88, 'params': {'alpha': 0.18538264933095155, 'eps': 0.5281756310361461, 'eps_decay': 0.5647352804074934}}
+Iteration 22: 
+	{'target': 8.84, 'params': {'alpha': 0.1502432935137179, 'eps': 0.6833550020338061, 'eps_decay': 0.8259479029524827}}
+Iteration 23: 
+	{'target': 8.92, 'params': {'alpha': 0.15969908190362753, 'eps': 0.6666523537256372, 'eps_decay': 0.8547609539391401}}
+Iteration 24: 
+	{'target': 8.69, 'params': {'alpha': 0.10112441008473143, 'eps': 0.8656466916599721, 'eps_decay': 0.5015803415258528}}
+Iteration 25: 
+	{'target': 8.88, 'params': {'alpha': 0.1235249288041917, 'eps': 0.5241625299586399, 'eps_decay': 0.7027473195914028}}
+Iteration 26: 
+	{'target': 8.64, 'params': {'alpha': 0.11756570188142035, 'eps': 0.6155078704690232, 'eps_decay': 0.6397510332442695}}
+Iteration 27: 
+	{'target': 8.9, 'params': {'alpha': 0.18093777424981983, 'eps': 0.6595378583099658, 'eps_decay': 0.7143441721768844}}
+Iteration 28: 
+	{'target': 8.84, 'params': {'alpha': 0.14535456067454217, 'eps': 0.8374934571513841, 'eps_decay': 0.7047867876899676}}
+Iteration 29: 
+	{'target': 8.77, 'params': {'alpha': 0.1675553520400516, 'eps': 0.6876257764404385, 'eps_decay': 0.5676900558584641}}
+Iteration 30: 
+	{'target': 8.79, 'params': {'alpha': 0.1425767805111104, 'eps': 0.6340833047182616, 'eps_decay': 0.6396829519757982}}
+Iteration 31: 
+	{'target': 8.78, 'params': {'alpha': 0.19068606368291566, 'eps': 0.9594053809215255, 'eps_decay': 0.8317512840533317}}
+Iteration 32: 
+	{'target': 8.8, 'params': {'alpha': 0.12708965098186914, 'eps': 0.6483804720313959, 'eps_decay': 0.80557204018054}}
+Iteration 33: 
+	{'target': 8.76, 'params': {'alpha': 0.1659456730026489, 'eps': 0.8596861695140888, 'eps_decay': 0.6478297504211754}}
+Iteration 34: 
+	{'target': 8.83, 'params': {'alpha': 0.1124424142405821, 'eps': 0.7669706785480113, 'eps_decay': 0.6439070403880357}}
+Iteration 35: 
+	{'target': 8.7, 'params': {'alpha': 0.15598411384107502, 'eps': 0.692631023715095, 'eps_decay': 0.8541821387912274}}
+Iteration 36: 
+	{'target': 8.78, 'params': {'alpha': 0.19800796065246606, 'eps': 0.9136314785820823, 'eps_decay': 0.7574832783380482}}
+Iteration 37: 
+	{'target': 8.85, 'params': {'alpha': 0.15861296188882237, 'eps': 0.6390263029854393, 'eps_decay': 0.7457398945471121}}
+Iteration 38: 
+	{'target': 8.96, 'params': {'alpha': 0.1686549789955837, 'eps': 0.8307157693996894, 'eps_decay': 0.8347020458227429}}
+Iteration 39: 
+	{'target': 8.97, 'params': {'alpha': 0.10816610827053126, 'eps': 0.7717726725815415, 'eps_decay': 0.8499737291789955}}
+Iteration 40: 
+	{'target': 8.68, 'params': {'alpha': 0.10957010485171365, 'eps': 0.5072054261517243, 'eps_decay': 0.6900378024565381}}
+Iteration 41: 
+	{'target': 8.76, 'params': {'alpha': 0.17403334989553065, 'eps': 0.9837959466631931, 'eps_decay': 0.622655864304411}}
+Iteration 42: 
+	{'target': 8.74, 'params': {'alpha': 0.19791713773602665, 'eps': 0.5610688983242231, 'eps_decay': 0.7935721118856702}}
+Iteration 43: 
+	{'target': 8.84, 'params': {'alpha': 0.14696573591840756, 'eps': 0.7295376559398377, 'eps_decay': 0.7116418368766823}}
+Iteration 44: 
+	{'target': 8.67, 'params': {'alpha': 0.12226063482338784, 'eps': 0.9078647941114714, 'eps_decay': 0.694065545291075}}
+Iteration 45: 
+	{'target': 8.92, 'params': {'alpha': 0.14165363120896052, 'eps': 0.6295868909199613, 'eps_decay': 0.7544874454630505}}
+Iteration 46: 
+	{'target': 8.83, 'params': {'alpha': 0.1685823927023342, 'eps': 0.5076490296276743, 'eps_decay': 0.8946365336294855}}
+Iteration 47: 
+	{'target': 8.75, 'params': {'alpha': 0.16889389928332915, 'eps': 0.7617532934782196, 'eps_decay': 0.6681927254446852}}
+Iteration 48: 
+	{'target': 8.75, 'params': {'alpha': 0.14306040403570588, 'eps': 0.6826858734982333, 'eps_decay': 0.6301480501650079}}
+Iteration 49: 
+	{'target': 8.9, 'params': {'alpha': 0.14910578686519035, 'eps': 0.7196013836379707, 'eps_decay': 0.8184814548769666}}
+Iteration 50: 
+	{'target': 8.83, 'params': {'alpha': 0.11683740742529926, 'eps': 0.8310188143517881, 'eps_decay': 0.6730394360827417}}
+Iteration 51: 
+	{'target': 8.8, 'params': {'alpha': 0.12888076907222534, 'eps': 0.6020768449598821, 'eps_decay': 0.5572627254230229}}
+Iteration 52: 
+	{'target': 8.69, 'params': {'alpha': 0.1260418182296189, 'eps': 0.9008161895652254, 'eps_decay': 0.6830551169372023}}
+Iteration 53: 
+	{'target': 8.8, 'params': {'alpha': 0.14008156687892684, 'eps': 0.6241934586684469, 'eps_decay': 0.58763870659416}}
+Iteration 54: 
+	{'target': 8.79, 'params': {'alpha': 0.1251688982107488, 'eps': 0.5236637032297972, 'eps_decay': 0.7015350892414972}}
+Iteration 55: 
+	{'target': 8.77, 'params': {'alpha': 0.18001461648889572, 'eps': 0.6984226827508389, 'eps_decay': 0.6514232873500553}}
+Iteration 56: 
+	{'target': 8.88, 'params': {'alpha': 0.10209828772655416, 'eps': 0.8992258642847943, 'eps_decay': 0.7046717140560803}}
+Iteration 57: 
+	{'target': 8.87, 'params': {'alpha': 0.13262888742035386, 'eps': 0.9885870051995862, 'eps_decay': 0.5651428102377781}}
+Iteration 58: 
+	{'target': 9.05, 'params': {'alpha': 0.1822475094232236, 'eps': 0.591688874735735, 'eps_decay': 0.6146407340271168}}
+Iteration 59: 
+	{'target': 8.76, 'params': {'alpha': 0.1398171951478895, 'eps': 0.8644961975279195, 'eps_decay': 0.5597882334197846}}
+Iteration 60: 
+	{'target': 8.9, 'params': {'alpha': 0.14257998085082702, 'eps': 0.6070574328316265, 'eps_decay': 0.660383961362983}}
+Iteration 61: 
+	{'target': 8.9, 'params': {'alpha': 0.17954618575923956, 'eps': 0.9921672058544626, 'eps_decay': 0.5304184845335727}}
+Iteration 62: 
+	{'target': 8.93, 'params': {'alpha': 0.1310519296836043, 'eps': 0.6867147579838898, 'eps_decay': 0.7800508916977078}}
+Iteration 63: 
+	{'target': 8.93, 'params': {'alpha': 0.1137778897867777, 'eps': 0.7190514903183636, 'eps_decay': 0.7292811174310981}}
+Iteration 64: 
+	{'target': 8.74, 'params': {'alpha': 0.1346545737421524, 'eps': 0.5123689616218857, 'eps_decay': 0.8311524171519744}}
+Iteration 65: 
+	{'target': 8.78, 'params': {'alpha': 0.11871292454546228, 'eps': 0.9587889410365135, 'eps_decay': 0.8330490532081313}}
+Iteration 66: 
+	{'target': 8.81, 'params': {'alpha': 0.15405052833354713, 'eps': 0.6354862894468207, 'eps_decay': 0.6246986622410213}}
+Iteration 67: 
+	{'target': 8.81, 'params': {'alpha': 0.1856239064101516, 'eps': 0.9655155387915699, 'eps_decay': 0.7641423432362174}}
+Iteration 68: 
+	{'target': 8.82, 'params': {'alpha': 0.18254623621245547, 'eps': 0.8278327770913176, 'eps_decay': 0.805406838300514}}
+Iteration 69: 
+	{'target': 8.65, 'params': {'alpha': 0.16623290864953513, 'eps': 0.8500794196939367, 'eps_decay': 0.8850385660202142}}
+Iteration 70: 
+	{'target': 9.04, 'params': {'alpha': 0.18425206367040972, 'eps': 0.7136112500374261, 'eps_decay': 0.8425025819773411}}
+Iteration 71: 
+	{'target': 9.08, 'params': {'alpha': 0.17618812810303153, 'eps': 0.7428330072309788, 'eps_decay': 0.7046262442909615}}
+Iteration 72: 
+	{'target': 8.69, 'params': {'alpha': 0.1139080375041109, 'eps': 0.9022205239942471, 'eps_decay': 0.5296259927871034}}
+Iteration 73: 
+	{'target': 8.74, 'params': {'alpha': 0.1342310328803198, 'eps': 0.5956652937063003, 'eps_decay': 0.6075460187261165}}
+Iteration 74: 
+	{'target': 8.78, 'params': {'alpha': 0.10993577117286789, 'eps': 0.813541088693573, 'eps_decay': 0.7227215186614435}}
+Iteration 75: 
+	{'target': 8.8, 'params': {'alpha': 0.1756313737531166, 'eps': 0.9937108330531376, 'eps_decay': 0.7508683208741463}}
+Iteration 76: 
+	{'target': 8.82, 'params': {'alpha': 0.19469548928093783, 'eps': 0.8137119530782659, 'eps_decay': 0.6373587491103663}}
+Iteration 77: 
+	{'target': 8.7, 'params': {'alpha': 0.12954185095848209, 'eps': 0.516186764822656, 'eps_decay': 0.8773979015972362}}
+Iteration 78: 
+	{'target': 8.71, 'params': {'alpha': 0.14534760083298795, 'eps': 0.6125615797562523, 'eps_decay': 0.6039936317462019}}
+Iteration 79: 
+	{'target': 8.9, 'params': {'alpha': 0.16470730505010367, 'eps': 0.7999372946395704, 'eps_decay': 0.8905974932388272}}
+Iteration 80: 
+	{'target': 8.76, 'params': {'alpha': 0.13720242447810188, 'eps': 0.5439273488152663, 'eps_decay': 0.887180553234558}}
+Iteration 81: 
+	{'target': 8.86, 'params': {'alpha': 0.15995898882975068, 'eps': 0.5108126465009022, 'eps_decay': 0.8931177166370079}}
+Iteration 82: 
+	{'target': 8.63, 'params': {'alpha': 0.13338476714463635, 'eps': 0.5925912382823907, 'eps_decay': 0.5954270994206219}}
+Iteration 83: 
+	{'target': 8.72, 'params': {'alpha': 0.11626194458351806, 'eps': 0.86289897936248, 'eps_decay': 0.7050791651491454}}
+Iteration 84: 
+	{'target': 8.79, 'params': {'alpha': 0.19128738115661587, 'eps': 0.7572774320072138, 'eps_decay': 0.7540258000485894}}
+Iteration 85: 
+	{'target': 8.77, 'params': {'alpha': 0.1444442505092068, 'eps': 0.8680424012901065, 'eps_decay': 0.8016999306720588}}
+Iteration 86: 
+	{'target': 8.88, 'params': {'alpha': 0.107972886088683, 'eps': 0.5976594044842938, 'eps_decay': 0.7138272650861187}}
+Iteration 87: 
+	{'target': 8.67, 'params': {'alpha': 0.18021931483019576, 'eps': 0.5708027331717432, 'eps_decay': 0.7289897530924138}}
+Iteration 88: 
+	{'target': 8.75, 'params': {'alpha': 0.19053476975397218, 'eps': 0.5160650355999807, 'eps_decay': 0.8973908735231654}}
+Iteration 89: 
+	{'target': 8.66, 'params': {'alpha': 0.14326793992211675, 'eps': 0.9052449303101291, 'eps_decay': 0.6159851980376305}}
+Iteration 90: 
+	{'target': 8.84, 'params': {'alpha': 0.15446675286805292, 'eps': 0.9666911352487693, 'eps_decay': 0.5199450648967894}}
+Iteration 91: 
+	{'target': 8.85, 'params': {'alpha': 0.1442534339875873, 'eps': 0.8873215672334497, 'eps_decay': 0.5964525756983888}}
+Iteration 92: 
+	{'target': 8.83, 'params': {'alpha': 0.10345496632419501, 'eps': 0.7058598336660105, 'eps_decay': 0.7786863626050462}}
+Iteration 93: 
+	{'target': 8.88, 'params': {'alpha': 0.17833745009812055, 'eps': 0.9479184170476025, 'eps_decay': 0.6364092717866268}}
+Iteration 94: 
+	{'target': 8.79, 'params': {'alpha': 0.12358055559032889, 'eps': 0.714798685847371, 'eps_decay': 0.7091867134041074}}
+Iteration 95: 
+	{'target': 8.63, 'params': {'alpha': 0.18815235846359163, 'eps': 0.6056725327384197, 'eps_decay': 0.7766681084633845}}
+Iteration 96: 
+	{'target': 8.93, 'params': {'alpha': 0.13666178571097054, 'eps': 0.5752084311042356, 'eps_decay': 0.7735257374253137}}
+Iteration 97: 
+	{'target': 8.72, 'params': {'alpha': 0.18602786467835314, 'eps': 0.8317873591544797, 'eps_decay': 0.5064616875543634}}
+Iteration 98: 
+	{'target': 8.89, 'params': {'alpha': 0.19085696076940806, 'eps': 0.7003490529017187, 'eps_decay': 0.7631371306689203}}
+Iteration 99: 
+	{'target': 8.91, 'params': {'alpha': 0.12487399836475004, 'eps': 0.5572975819215067, 'eps_decay': 0.6335808455437701}}
+Iteration 100: 
+	{'target': 8.75, 'params': {'alpha': 0.17667548304729858, 'eps': 0.7628492981174073, 'eps_decay': 0.7177331641899698}}
+Iteration 101: 
+	{'target': 8.98, 'params': {'alpha': 0.1922858165657739, 'eps': 0.7442652535225844, 'eps_decay': 0.6883734111441713}}
+Iteration 102: 
+	{'target': 8.7, 'params': {'alpha': 0.13720314179435833, 'eps': 0.8483401293624853, 'eps_decay': 0.5703890777829438}}
+Iteration 103: 
+	{'target': 8.74, 'params': {'alpha': 0.134442569029181, 'eps': 0.5968558364916629, 'eps_decay': 0.722576212980132}}
+Iteration 104: 
+	{'target': 8.81, 'params': {'alpha': 0.12608304052238345, 'eps': 0.5005091332437872, 'eps_decay': 0.5833932225057403}}
+Iteration 105: 
+	{'target': 8.88, 'params': {'alpha': 0.1243602749264949, 'eps': 0.8580354657347475, 'eps_decay': 0.7744933560437753}}
+Iteration 106: 
+	{'target': 8.75, 'params': {'alpha': 0.18522201976344024, 'eps': 0.9840502904359377, 'eps_decay': 0.855068016103427}}
+Iteration 107: 
+	{'target': 8.83, 'params': {'alpha': 0.1856541802926283, 'eps': 0.5465472024634563, 'eps_decay': 0.6108428441058342}}
+Iteration 108: 
+	{'target': 8.71, 'params': {'alpha': 0.15114155923552564, 'eps': 0.810388160323348, 'eps_decay': 0.5004960969938586}}
+Iteration 109: 
+	{'target': 8.86, 'params': {'alpha': 0.11536014132725642, 'eps': 0.7532963468278868, 'eps_decay': 0.8312281920535094}}
+Iteration 110: 
+	{'target': 8.86, 'params': {'alpha': 0.13106544110655896, 'eps': 0.7098707956632021, 'eps_decay': 0.5987606823933493}}
