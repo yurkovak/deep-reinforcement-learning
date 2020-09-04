@@ -5,8 +5,10 @@ from collections import namedtuple, deque
 from model import QNetwork
 
 import torch
-import torch.nn.functional as F
+import torch.nn as nn
 import torch.optim as optim
+
+from IPython.core.debugger import set_trace
 
 BUFFER_SIZE = int(1e5)  # replay buffer size
 BATCH_SIZE = 64         # minibatch size
@@ -20,7 +22,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 class Agent():
     """Interacts with and learns from the environment."""
 
-    def __init__(self, state_size, action_size, seed):
+    def __init__(self, state_size, action_size, seed, weights_path=None):
         """Initialize an Agent object.
         
         Params
@@ -37,11 +39,24 @@ class Agent():
         self.qnetwork_local = QNetwork(state_size, action_size, seed).to(device)
         self.qnetwork_target = QNetwork(state_size, action_size, seed).to(device)
         self.optimizer = optim.Adam(self.qnetwork_local.parameters(), lr=LR)
-
+        self.criterion = nn.MSELoss()
+        
+        if weights_path:
+            self.load(weights_path)
+        
         # Replay memory
         self.memory = ReplayBuffer(action_size, BUFFER_SIZE, BATCH_SIZE, seed)
         # Initialize time step (for updating every UPDATE_EVERY steps)
         self.t_step = 0
+    
+    def load(self, weights_path):
+        checkpoint = torch.load(weights_path)
+        self.qnetwork_local.load_state_dict(checkpoint['model_state_dict'])
+        self.qnetwork_target.load_state_dict(checkpoint['model_state_dict'])
+        self.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        self.t_step = checkpoint['t_step']
+        self.memory.load_state(checkpoint['memory'])
+        print('Loaded checkpoint with the best avgerage score of ', checkpoint['best_avg_score'])
     
     def step(self, state, action, reward, next_state, done):
         # Save experience in replay memory
@@ -83,26 +98,40 @@ class Agent():
             experiences (Tuple[torch.Tensor]): tuple of (s, a, r, s', done) tuples 
             gamma (float): discount factor
         """
+        
         states, actions, rewards, next_states, dones = experiences
 
-        ## TODO: compute and minimize the loss
-        "*** YOUR CODE HERE ***"
+        pred_values = torch.gather(self.qnetwork_local(states), dim=1, index=actions)
+        gt_next_values = self.qnetwork_target(next_states).max(dim=1, keepdim=True)[0] * (1 - dones)
+        gt_values = rewards + gamma * gt_next_values
+        loss = self.criterion(pred_values, gt_values.detach())
+        
+        self.optimizer.zero_grad()
+        loss.backward()
+        self.optimizer.step()
 
         # ------------------- update target network ------------------- #
-        self.soft_update(self.qnetwork_local, self.qnetwork_target, TAU)                     
+        self.soft_update(TAU)                     
 
-    def soft_update(self, local_model, target_model, tau):
+    def soft_update(self, tau):
         """Soft update model parameters.
         θ_target = τ*θ_local + (1 - τ)*θ_target
 
         Params
         ======
-            local_model (PyTorch model): weights will be copied from
-            target_model (PyTorch model): weights will be copied to
             tau (float): interpolation parameter 
         """
-        for target_param, local_param in zip(target_model.parameters(), local_model.parameters()):
+        for target_param, local_param in zip(self.qnetwork_target.parameters(), self.qnetwork_local.parameters()):
             target_param.data.copy_(tau*local_param.data + (1.0-tau)*target_param.data)
+    
+    def save(self, weights_path, best_avg_score):
+        torch.save({
+            't_step': self.t_step,
+            'model_state_dict': self.qnetwork_local.state_dict(),
+            'optimizer_state_dict': self.optimizer.state_dict(),
+            'memory': self.memory.state(),
+            'best_avg_score': best_avg_score}, 
+            weights_path)
 
 
 class ReplayBuffer:
@@ -144,3 +173,9 @@ class ReplayBuffer:
     def __len__(self):
         """Return the current size of internal memory."""
         return len(self.memory)
+    
+    def state(self):
+        return [list(exp) for exp in self.memory]
+    
+    def load_state(self, memory):
+        self.memory = deque([self.experience(*exp) for exp in memory], maxlen=self.memory.maxlen)
